@@ -40,11 +40,11 @@ sudo /home/vagrant/android-sdk-linux/platform-tools/adb start-server
 
 ### Pre-built image
 
-We are testing a pre-built Vagrant cloud image which should be faster than using the Vagrantfile method above. To try it, create a folder where you want to init your dev environment (a great place for this would be in the project folder of your app). Then run:
+Another Option is a pre-built Vagrant cloud image which should be faster than using the Vagrantfile method above. To try it, create a folder where you want to init your dev environment (a great place for this would be in the project folder of your app). Then run:
 
 ```bash
 $ vagrant init drifty/ionic-android
 $ vagrant up
 ```
 
-If you try this method and it works or you encounter issues, please comment on issue #7.
+
